@@ -9,5 +9,10 @@ basic_counting.py
 
 """
 
+for each in range (2,9):
+	if each%2 == 0:
+		print(each)
 
-
+for each in range(100):
+	if each%2 == 1 and each != 13:
+		print(each)
