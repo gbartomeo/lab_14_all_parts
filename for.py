@@ -11,3 +11,30 @@ for.py
 * roll a die 1000 times; count how many times a one is rolled!
 * fizz buzz: http://c2.com/cgi/wiki?FizzBuzzTest
 """
+
+import random
+
+t=0
+
+for each in range(1,101):
+	print(each)
+for each in range(0,101,2):
+	print(each)
+for each in range(100,0,-1):
+	print(each)
+print((100*(100+1))/2)
+for each in range(1000):
+	d = random.randint(1,6)
+	if d == 1:
+		t+=1
+print(t)
+
+for each in range(1,101):
+	if each%15 == 0:
+		print("FizzBuzz")
+	elif each%5 == 0:
+		print("Buzz")
+	elif each%3 ==0:
+		print("Fizz")
+	else:
+		print(each)
