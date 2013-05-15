@@ -16,3 +16,14 @@ What number should I translate into a medal?
 no medal for you!
 
 """
+
+usr = raw_input("What number should I translate into a medal?\n> ")
+
+if usr == "1":
+	print("gold")
+elif usr == "2":
+	print("silver")
+elif usr == "3":
+	print("bronze")
+else:
+	print("No medal for you!")
