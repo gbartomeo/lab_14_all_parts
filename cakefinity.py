@@ -14,3 +14,9 @@ Do you want cake?
 Have some cake!
 """
 
+usr = raw_input("Do you want cake?\n> ")
+
+while usr not in ["yes", "yeah"]:
+	usr = raw_input("Do you want cake?\n> ")
+
+print("Have some cake!")
